@@ -1,0 +1,42 @@
+
+	@media only screen and (max-width: 1300px) {
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+#menu li {text-decoration: none; font-size: 15px; color: #7694aa;;margin-right: 5px;font-family: 'allerregular'; padding: 6px; }
+#services{padding-top: 120px;  min-height: 600px; height: 600px; }
+#abogados { padding-top: 120px; background: white 50% 0 repeat fixed; min-height: 1500px;  height: 1500px;}
+.logo img{margin-top: 50px;margin-right: 500px;zoom: 0.8}
+
+	}
+
+	@media only screen and (max-width: 767px) {
+
+	}
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+#menu li {text-decoration: none; font-size: 15px; color: #7694aa;margin-right: 10px;font-family: 'allerregular'; padding: 6px;float: left; }
+#services{padding-top: 120px;  min-height: 600px; height: 600px; }
+#abogados { padding-top: 120px; background: white 50% 0 repeat fixed; min-height: 1500px;  height: 1500px;}
+.frase h1{font-size:30px;border-left: solid 4px white;border-right: solid 4px white;padding:0 30px 10px 30px;text-align: center;width: 300px;margin: 250px auto; display: block;line-height: 120%}
+.logo img{margin: 60px;margin-left: -150px;zoom: 0.7}
+#about { padding-top: 150px;height: 600px}
+#services{height: 600px}
+#serv{padding-top: 90px; min-height: 1100px; height: 1100px; }
+#abogados { padding-top: 150px; background: white 50% 0 repeat fixed; min-height: 2100px;  height: 2100px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+#publicaciones { padding-top: 150px; min-height: 600px;  height: 600px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; }
+footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
+}
+
+
+	@media only screen and (max-width: 479px) {
+.frase h1{font-size:20px;border-left: solid 4px white;border-right: solid 4px white;padding:0 30px 10px 30px;text-align: center;width: 220px;margin: 250px auto; display: block;line-height: 120%}
+#home{height: 200px}
+#about,#services { padding-top: 150px;height: 800px}
+#serv{height: 1200px}
+#abogados { padding-top: 150px; background: white 50% 0 repeat fixed; min-height: 2100px;  height: 2100px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
+.logo img{margin-top: 150px;margin-left: 80px;zoom: 0.8;margin-bottom: -30px}
+
+	}
+
