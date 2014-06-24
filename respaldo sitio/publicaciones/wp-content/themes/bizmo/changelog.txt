@@ -1,0 +1,12 @@
+*** Bizmo Changelog ***
+
+2014.05.20 - version 1.0.2
+	*Replaced screenshot.png
+
+2014.05.19 - version 1.0.1
+	*Replaced screenshot.png
+	*Removed hardcoded footer links (extras.php and footer.php)
+	*Added changelog file
+	*Added Left Sidebar template
+	*Fixed form action in search-topbar.php
+	*Escaped screen-reader text in search-topbar.php

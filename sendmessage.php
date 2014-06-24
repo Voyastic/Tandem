@@ -1,5 +1,5 @@
 <?php
-$sendto   = "andrapo04@gmail.com";
+$sendto   = "contacto@tandemlegal.mx";
 $usermail = $_POST['email'];
 $name = $_POST['name'];
 $content  = nl2br($_POST['msg']);

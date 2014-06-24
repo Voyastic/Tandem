@@ -17,11 +17,30 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.fancybox.js?v=2.0.6"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 <script type="text/javascript">
-
-	// Create HTML5 elements for IE
+    $(document).ready(function(){
+    $('section[data-type="background"]').each(function(){
+        var $bgobj = $(this); // assigning the object
+     
+        $(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+             
+            // Put together our final background position
+            var coords = '50% '+ yPos + 'px';
+ 
+            // Move the background
+            $bgobj.css({ backgroundPosition: coords });
+        }); 
+    });    
+});
+    // Create HTML5 elements for IE
   
+document.createElement("article");
+document.createElement("section");
+
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
@@ -39,7 +58,7 @@ function onScroll(event){
 }
 $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 600) {
+    if (y > 360) {
         $('.fade').fadeIn(1000);
     } else {
         $('.fade').fadeOut();
@@ -68,7 +87,11 @@ $(document).scroll(function () {
             <a class="modalbox" href="#inline"><li>Contacto</li></a>
 
         </ul>
-
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#menu').slicknav();
+});
+</script>
     </article>
 </div>  
 <div class="container frase">
@@ -370,6 +393,38 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
                 <div class="line"></div>
 
 <h2>PUBLICACIONES RECIENTES</h2></div>
+<?php 
+    require($_SERVER['DOCUMENT_ROOT'] . '/wp/wp-load.php'); 
+    $args = array(
+        // 'cat' => 4, // Only source posts from a specific category
+        'posts_per_page' => 4 // Specify how many posts you'd like to display
+    );
+    $latest_posts = new WP_Query( $args );  
+    if ( $latest_posts->have_posts() ) {
+        while ( $latest_posts->have_posts() ) {
+            $latest_posts->the_post(); ?>
+  
+<div class="en style nine columns">
+
+        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="rojo">
+    <?php if ( has_post_thumbnail() ) { ?>
+        <p class="post_thumbnail"><?php the_post_thumbnail(); ?></p>
+    <?php } ?>
+            <span class="post_title"><?php the_title(); ?></span>
+        </a>
+        <p class="post_time">Posted on <?php the_time('l jS F, Y') ?></p>
+        <?php the_excerpt(); ?>
+
+
+    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+        <button class="ver"> Seguir leyendo..</button> </a><br><hr></div>
+
+<? } 
+        } else {
+        echo '<h1>There are no posts available</h1>';
+    }
+    wp_reset_postdata();
+?>      
 </article>
 </section>
 

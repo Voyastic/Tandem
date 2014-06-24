@@ -37,6 +37,9 @@ footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; min-height: 5
 #abogados { padding-top: 150px; background: white 50% 0 repeat fixed; min-height: 2100px;  height: 2100px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
 .logo img{margin-top: 150px;margin-left: 80px;zoom: 0.8;margin-bottom: -30px}
-
+#inline { display: none; width: 300px;z-index: 999999 }
+.txt ,.txtarea { width: 260px;}
+#publicaciones{height: 1200px}
+.en{border: none}
 	}
 

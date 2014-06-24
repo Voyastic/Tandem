@@ -1,0 +1,4 @@
+[30-Jan-2014 10:06:59 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/tandemle/domains/tandemlegal.mx/public_html/publicaciones/wp-content/themes/twentyten/index.php on line 16
+[30-Jan-2014 10:07:56 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/tandemle/domains/tandemlegal.mx/public_html/publicaciones/wp-content/themes/twentyten/index.php on line 16
+[30-Jan-2014 10:10:04 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/tandemle/domains/tandemlegal.mx/public_html/publicaciones/wp-content/themes/twentyten/index.php on line 16
+[14-Feb-2014 14:31:58 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/tandemle/domains/tandemlegal.mx/public_html/publicaciones/wp-content/themes/twentyten/index.php on line 16

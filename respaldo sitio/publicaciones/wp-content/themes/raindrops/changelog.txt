@@ -1,0 +1,81 @@
+Changelog -----------------------------------
+version:0.904
+fixed
+    bug
+    page.php line:24
+        change ver name $ancestor to $raindrops_ancestor
+added
+    function
+    functions.php line:2797
+        raindrops_import_post_meta()
+----------------------------------------------
+Changelog -----------------------------------
+version:0.903
+modified
+    style.css line:110
+        add style
+        Category blog when listed article issue image after headding is not float
+----------------------------------------------
+Changelog -----------------------------------
+version:0.902
+
+fixed
+    bug functions.php line:740
+        $array = raindrops_register_styles();
+        to
+        $array = raindrops_register_styles($input);
+----------------------------------------------
+Changelog -----------------------------------
+version:0.901
+modified
+     functions.php
+        function raindrops_style_type_validate code modified why Child theme customize easier.
+     csscolor.css.php
+        function name change e.g. raindrops_dark to raindrops_indv_css_dark
+        Add raindrops_register_styles themename allways.
+             Child theme developer can create function raindrops_indv_css_ChildThemeName,
+             It will be create 'color type' and can select Theme options panel.
+
+            function raindrops_indv_css_ChildThemeName is return style string.
+            this return value are embed html document style.
+----------------------------------------------
+Changelog -----------------------------------
+version:0.900
+
+moved
+    const RAINDROPS_COLOR_SCHEME remove.
+
+added
+    Raindrops Option panel Color Scheme add
+    Raindrops Option panel auto gradient visible where 'RAINDROPS' background gradient.
+    csscolor.css.php add function raindrops_register_styles.
+fixed
+    Child theme issue fix
+        Child style.css can not read ploblem.
+    Option page link name fix
+        Raindrops Option to ChildTheme Option change.
+modified
+    css3.css form button size modified.
+    Child theme StyleSheet(yui-grid,reset,more) Customizing easier.
+        e.g. function add_raindrops_stylesheet(){} can define on childtheme.
+
+    If Child theme have not header embed style (csscolor.css.php function dark(),function light()...) when required function w3standard() where functions.php.
+
+made
+    Color Scheme add 'animation color','Japan','USA','WWW'
+
+----------------------------------------------
+#Changelog -----------------------------------
+#version:
+#
+#moved
+#
+#added
+#
+#fixed
+#
+#modified
+#
+#made
+#
+#----------------------------------------------

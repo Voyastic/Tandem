@@ -23,6 +23,7 @@ body,blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
 
 h1{font-family: 'allerbold';font-size: 29px;color: #fff}
 h2{font-family: 'allerregular'; font-size: 31px; color: #7694aa; margin: 0;margin-bottom: 50px}
+h4{font-family: 'allerregular'; font-size: 18px; color: #7694aa; margin: 0;margin-bottom: 10px}
 h3{font-family: 'allerbold'; font-size: 22px; color: #fff}
 footer a{font-family: 'allerregular'; font-size: 15px; color: #769499;text-decoration: none}
 h5{font-family: 'Roboto', sans-serif;color: #333; font-weight: 600;font-size: 12px;line-height: 120%;text-align: justify;}
@@ -491,3 +492,8 @@ color: #8c9dc0;
   background: #000;
   background: rgba(0, 0, 0, .8);
 }
+button{background:#769499;font-family: 'allerregular';font-size:16px;display: block; margin-top: 10px; height: 35px; width: 200px; border: none; border-radius: 2px;cursor: pointer;color: #153349}
+button:hover{ background: #153349; color:#769499;}
+.en{border-right: 1px solid #769499; height: 320px }
+.en h4, .en p{padding-right: 20px;}
+.en h4{margin-top: 20px}
