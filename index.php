@@ -235,7 +235,7 @@ AMPAROS.</h3>
   <div class="flip"> 
         <div class="card"> 
             <div class="face front"> 
-             <!-- <img src="images/profile.png">-->
+             <img src="images/ar.png">
                 <h5>ARMANDO ROBLEDO MÁRQUEZ</h5>
                 <p>Abogado, académico y socio fundador de TANDEM CONSULTORES LEGALES, S.C.  </p>
                 <ul>
@@ -259,7 +259,7 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
       <div class="flip"> 
         <div class="card"> 
             <div class="face front"> 
-             <!-- <img src="images/profile.png">-->
+           <img src="images/man.png">
                 <h5>JOSÉ MANUEL LÓPEZ LIBREROS</h5>
                 <p>Abogado, académico y socio fundador de TANDEM CONSULTORES LEGALES, S.C.  </p>
                 <ul>
@@ -283,7 +283,7 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
      <div class="flip"> 
         <div class="card"> 
             <div class="face front"> 
-             <!-- <img src="images/profile.png">-->
+             <img src="images/profileaz.png">
                 <h5>LAURA ELENA LÓPEZ CARMONA
 </h5>
                 <p>Abogada, académica y socia fundadora de TANDEM CONSULTORES LEGALES, S.C.  </p>
