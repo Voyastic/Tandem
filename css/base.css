@@ -32,7 +32,7 @@ p{font-family: 'Roboto', sans-serif; font-weight: 400;font-size: 12px;line-heigh
 #about { padding-top: 150px; background: white 50% 0 repeat fixed; min-height: 500px;  height: 500px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 #services{padding-top: 150px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
 #serv{padding-top: 80px;  background: url(../images/2.jpg) 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative}
-#contacto{padding-top: 150px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
+#contacto{padding-top: 150px;  background: #153349 50% 0 repeat fixed; min-height: 600px; height: 600px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
 
 #abogados { padding-top: 150px; background: white 50% 0 repeat fixed; min-height: 900px;  height: 900px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 #publicaciones { padding-top: 150px;background: white 50% 0 repeat fixed; min-height: 600px;  height: 600px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; }
@@ -202,4 +202,8 @@ text-decoration: underline;}
 
 /*CONTACT FORM*/
 form{display: inline}
-label { margin-right: 12px; margin-bottom: 9px; font-family: 'Roboto', serif; color: #fff; font-size: 12px;display: block; }
+label { margin-right: 15px; margin-bottom: 9px; font-family: 'Roboto', serif; color: #fff; font-size: 12px;display: block; }
+input{height: 30px;width:300px;border-radius: 2px; border: none;margin-bottom: 20px;padding-left: 10px;font-size: 12px}
+button{background:#769499;font-family: 'allerregular';font-size:16px;display: block; margin-left: 210px; margin-top: 10px; height: 35px; width: 100px; border: none; border-radius: 2px;cursor: pointer;color: #153349}
+button:hover{border: 1px solid #769499; background: #153349; color:#769499;}
+textarea{height: 150px;width: 300px;border-radius: 5px;padding-left: 10px;padding-top: 10px; font-size: 12px}
