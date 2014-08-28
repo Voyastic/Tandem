@@ -76,16 +76,18 @@ $(document).scroll(function () {
 </head>
 <body>
 <section id="home" data-type="background" data-speed="10">
+    <div class="banner">
 <div class="container">
-	<article class="three columns logo"><img src="images/logotipo.png" alt="logotipo Tandem"></article>
+	<article class="three columns logo"><a href="#home"><img src="images/logotipo.png" alt="logotipo Tandem"></a></article>
     <article class="twelve columns">
         <ul id="menu">            
-            <a href="index.php#home"><li>Home</li></a>
-            <a href="index.php#about"><li>Nosotros</li></a>
-            <a href="index.php#services"><li>Áreas</li></a>
-            <a href="index.php#abogados"><li>Abogados</li></a>
-            <a href="index.php#publicaciones"><li>Publicaciones</li></a>
+            <a href="#about"><li>Nosotros</li></a>
+            <a href="#services"><li>Servicios</li></a>
+            <a href="#abogados"><li>Abogados</li></a>
+            <a href="#publicaciones"><li>Publicaciones</li></a>
             <a class="modalbox" href="#inline"><li>Contacto</li></a>
+           
+
 
         </ul>
 <script type="text/javascript">
@@ -93,11 +95,10 @@ $(document).ready(function(){
     $('#menu').slicknav();
 });
 </script>
-    </article>
+    </article></div>
 </div>  
 <div class="container frase">
-    <h1>ABOGADOS ASOCIADOS ALTAMENTE CAPACITADOS PARA
-ATENDERLE EN DIVERSAS ÁREAS DEL DERECHO, HACEMOS TANDEM CON USTED</h1>
+    <h1>ABOGADOS ASOCIADOS ALTAMENTE CAPACITADOS PARA ATENDERLE EN DIVERSAS ÁREAS DEL DERECHO, <br><em>HACEMOS TANDEM CON USTED<em></h1>
 </div>
 </section>   
      
@@ -123,7 +124,7 @@ De esta manera, en el proceso de toma de decisiones el cliente contará con info
         <div class="container fade2">
        <div class="sixteen columns"> 
                 <div class="line"></div>
-<h2>ÁREAS DE PRÁCTICA</h2></div>
+<h2>SERVICIOS JURÍDICOS</h2></div>
         <div class="seven columns">
            <p>Consultoría, análisis y elaboración de estudios jurídicos, así como el litigio y defensa en distintas áreas del Derecho, como en  el ámbito corporativo, mercantil, civil, administrativo y fiscal.  La prestación de servicios incluye la normatividad local, nacional e internacional.
 </p><p> 
@@ -146,7 +147,7 @@ Buscamos el beneficio de entidades y organismos públicos ofreciendo  la elabora
 <section id="serv" data-type="background" data-speed="10">
 <div class="container">
     <article class="four columns">
-        <h3>CORPORATIVO.</h3>
+        <h3>CORPORATIVO</h3>
         <ul>
             <li>Creación, restructuración y terminación de sociedades</li>
             <li>Actas y documentación para asambleas</li> 
@@ -158,7 +159,7 @@ Buscamos el beneficio de entidades y organismos públicos ofreciendo  la elabora
         </ul>
     </article>
  <article class="four columns">
-        <h3>MERCANTIL Y CIVIL.</h3>
+        <h3>MERCANTIL Y CIVIL</h3>
         <ul>
             <li> Contratos y convenios en general</li>
 <li>Garantías (hipoteca, prenda)</li>
@@ -168,18 +169,20 @@ Buscamos el beneficio de entidades y organismos públicos ofreciendo  la elabora
         </ul>
     </article>
         <article class="four columns">
-        <h3>FISCAL Y ADMINISTRATIVO.</h3>
+        <h3>FISCAL Y ADMINISTRATIVO</h3>
         <ul>
             <li>Procedimientos ante autoridades gubernamentales (locales, estatales, federales)</li>
             <li>Licitación y compras públicas</li>
             <li> Verificaciones e inspecciones</li>
             <li>Recursos y juicios contenciosos</li>
+            <li>Consultas</li>
             <li> Seguridad social (IMSS, INFONAVIT)</li>
-            <li>Hacienda</li>   
+            <li>SAT</li> 
+            <li>Juicios contenciosos administrativos, federales y locales</li>  
         </ul>
     </article>
      <article class="four columns">
-        <h3>PROPIEDAD INDUSTRIAL E INTELECTUAL.</h3>
+        <h3>PROPIEDAD INDUSTRIAL E INTELECTUAL</h3>
         <ul>
             <li>Registro de marcas, patentes y derechos de autor</li>
             <li>Procedimiento administrativo</li>
@@ -192,7 +195,7 @@ Buscamos el beneficio de entidades y organismos públicos ofreciendo  la elabora
 <br>
 <div class="container">
     <article class="four columns">
-        <h3>LABORAL.</h3>
+        <h3>LABORAL</h3>
         <ul>
             <li>Contratos de trabajo</li>
             <li>Actas administrativas</li>
@@ -204,18 +207,21 @@ Buscamos el beneficio de entidades y organismos públicos ofreciendo  la elabora
         </ul>
     </article>
     <article class="four columns">
-         <h3>CONTRATOS.</h3>
+         <h3>CONTRATOS</h3>
         <ul>
             <li> Civiles (arrendamientos, donaciones, comodatos)</li>
-            <li>Mercantiles (compraventas, asociaiones en participación,joint ventures)</li>
+            <li>Mercantiles (compraventas, asociaciones en participación,joint ventures)</li>
             <li>Laborales (contratos individuales y colectivos)</li>
     </article>
     <article class="eight columns">
-         <h3>LITIGIO.</h3>
+         <h3>LITIGIO</h3>
         <ul>
-            <li>Civiles (arrendamiento, donaciones, comodatos, etc.)</li>
-<li>Mercantiles (compraventas, asociaciones en participación, joint ventures, etc.) </li>
-<li>Laborales (contratos de trabajo, convenios colectivos, reglamentos interiores de trabajo, etc.).</li>
+            <li>Mercantil</li>
+<li>Civil </li>
+<li>Fiscal</li>
+<li>Administrativo</li>
+<li>Amparo administrativo y fiscal</li>
+
     </article>
 </div>
 </section>
@@ -237,24 +243,24 @@ clientes.</p> </div>
             <div class="face front"> 
              <img src="images/ar.png">
                 <h5>ARMANDO ROBLEDO MÁRQUEZ</h5>
-                <p>Abogado, académico y socio fundador de TANDEM CONSULTORES LEGALES, S.C.  </p>
+                <p>Abogado, académico y socio fundador de TANDEM CONSULTORES LEGALES, S.C.   </p>
                 <ul>
-                    <li>Licenciado en Derecho (1997)</li>
-                    <li>Maestro en Derecho con especialidad en Derecho Fiscal (2005) Universidad Autónoma de Aguascalientes</li>
-                    <li>Maestro en Impuestos (2000) por el Instituto de Especialización para Ejecutivos, A.C.</li> 
-                    <li>Doctor en Materia Fiscal (2008) por la Universidad Autónoma de Durango. </li>
+                    <li>Licenciado en Derecho (1997) Universidad Autónoma de Aguascalientes.</li>
+                    <li>Maestro en Derecho con especialidad en Derecho Fiscal (2005) Universidad Autónoma de Aguascalientes.</li>
+                    <li>Maestro en Impuestos (2000) por el Instituto de Especialización para Ejecutivos, A.C. </li> 
+                    <li>Doctor en Materia Fiscal (2008) por la Universidad Autónoma de Durango.  </li>
                 </ul>
             </div> 
             <div class="face back"> 
                                 <h5>ARMANDO ROBLEDO MÁRQUEZ</h5>
 
-                <p>Su área de especialización es el Derecho administrativo y fiscal.  Ha ejercido como abogado litigante en las áreas del Derecho mercantil y 
-                    tributario; además, trabajo para el Servicio de Administración Tributaria de la SHCP (1997-1999) y fungió como Director General Jurídico de
-                     la Secretaría de Finanzas del Gobierno estatal (2004-2010)</p>
+                <p>Su área de especialización es el Derecho administrativo y fiscal.  Ha ejercido como abogado litigante en las áreas del Derecho mercantil y tributario; 
+                    además, trabajo para el Servicio de Administración Tributaria de la SHCP (1997-1999) y fungió como Director General Jurídico de la Secretaría de Finanzas del Gobierno estatal (2004-2010).</p>
  <p>
-En la academia, ha impartido distintos cursos en materia tributaria y administrativa, tanto en cursos a nivel de licenciatura como en postgrados y foros especializados.  </p>
- <p>
-Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en Derecho de la Universidad Autónoma de Aguascalientes.  Cuenta con diversas publicaciones relacionadas con el ámbito fiscal.  Maneja de manera fluida el idioma inglés.</p>
+En la academia, ha impartido distintos cursos en materia tributaria y administrativa, tanto en cursos a nivel de licenciatura como en postgrados y foros especializados.  
+Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en Derecho de la Universidad Autónoma de Aguascalientes y en otras instituciones.
+ Cuenta con diversas publicaciones relacionadas con el ámbito fiscal.  Maneja de manera fluida el idioma inglés.
+</p>
             </div> 
         </div> 
     </div> 
@@ -265,27 +271,27 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
                 <h5>JOSÉ MANUEL LÓPEZ LIBREROS</h5>
                 <p>Abogado, académico y socio fundador de TANDEM CONSULTORES LEGALES, S.C.  </p>
                 <ul>
-                    <li>Licenciado en Derecho por la Universidad Autónoma de Aguascalientes (1999)</li>
-  <li>Master en Derecho de la Unión Europea (2002) </li>
-  <li>Doctor en Derecho por la Universidad Carlos III de Madrid (2008).  
- </li>
- <li>Formó parte del Consejo de la Judicatura estatal (2009-2010).</li>
+                    <li>Licenciado en Derecho por la Universidad Autónoma de Aguascalientes (1999).</li>
+  <li>Master en Derecho de la Unión Europea (2002) Universidad Carlos III de Madrid. </li>
+  <li>Doctor en Derecho (2008) por la Universidad Carlos III de Madrid.  </li>
+
                 </ul>
             </div> 
             <div class="face back"> 
                                 <h5>JOSÉ MANUEL LÓPEZ LIBREROS</h5>
 
-                <p>Derecho mercantil, corporativo, administrativo e internacional. Se ha desempeñado como abogado litigante en las áreas del Derecho privado, 
-                    además de haber sido Coordinador jurídico del Gobierno estatal (2008-2010).En el área académica, ha dado cursos en postgrados relacionados 
-                    on el área del Derecho corporativo, administrativo, derechos humanos y derecho internacional; y actualmente es investigador por parte de la
-                     Universidad Autónoma de Aguascalientes.</p>
-<p>Cuenta con la publicación de diversos artículos en relación al comercio de mercancías y servicios en los sistemas jurídico-comerciales del TLCAN, 
-    la UE y la OMC; así como en materia de derecho internacional y los derechos humanos.  Actualmente es profesor de la materia Sistemas Jurídicos 
-    Contemporáneos y Derecho internacional público en la Licenciatura en Derecho de la Universidad Autónoma de Aguascalientes; además de dar cursos en 
-    otras instituciones públicas y privadas de la región. Domina de manera fluida el idioma inglés, y además, maneja el idioma francés.</p>
- </p>
- <p>
-Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en Derecho de la Universidad Autónoma de Aguascalientes.  Cuenta con diversas publicaciones relacionadas con el ámbito fiscal.  Maneja de manera fluida el idioma inglés.</p>
+                <p>Su área de especialización son el derecho mercantil, corporativo, administrativo e internacional. Se ha desempeñado como abogado litigante en las áreas del Derecho privado, 
+                    además de haber sido Coordinador jurídico del Gobierno estatal (2008-2010) así como parte del Consejo de la Judicatura (2009-2010).  </p>
+<p>En el ámbito académico, ha dado cursos en postgrados relacionados con el área del Derecho corporativo, administrativo, derechos humanos y derecho internacional; 
+    y actualmente es investigador por parte de la Universidad Autónoma de Aguascalientes.
+Cuenta con la publicación de diversos artículos en relación al comercio de mercancías y servicios en los sistemas jurídico-comerciales del TLCAN, la UE y la OMC; 
+así como en materia de derecho internacional y los derechos humanos.  </p>
+<p> Actualmente es profesor de la materia Sistemas Jurídicos Contemporáneos y Derecho internacional 
+público en la Licenciatura en Derecho de la Universidad Autónoma de Aguascalientes; además de dar cursos en otras instituciones públicas y privadas de la región.  
+Domina de manera fluida el idioma inglés, y además, maneja el idioma francés.
+</p>
+
+ 
             </div> 
         </div> 
     </div> 
@@ -303,8 +309,7 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
                 </ul>
             </div> 
             <div class="face back"> 
-                                <h5>LAURA ELENA LÓPEZ CARMONA
-</h5>
+                                <h5>LAURA ELENA LÓPEZ CARMONA</h5>
 
                 <p>Su área de especialización es el derecho civil, familiar, corporativo y administrativo. Se ha desempeñado como abogada litigante en las áreas del Derecho privado y público, además de haber sido encargada de la Oficina regional 2 de la Comisión de Apelación y Arbitraje del Deporte.</p>
 <p>Actualmente funge como catedrática en diversas instituciones locales, en el ámbito del Derecho civil y familiar.
@@ -325,7 +330,6 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
 
 <div id="inline">
     <h2>Contáctanos</h2>
-
     <form id="contact" name="contact" action="#" method="post">
         <label for="name">Nombre</label>
         <input type="name" id="name" name="name" class="txt">
@@ -337,7 +341,7 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
         
         <button id="send">Enviar</button>
     </form>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.8653310102623!2d-102.31227800000002!3d21.901261000000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429eeee2b4d4053%3A0xe433ed8905817e3e!2sTandem+Legal!5e0!3m2!1ses!2smx!4v1404313398087" frameborder="0" style="border:0"></iframe></div>
 <script type="text/javascript">
     function validateEmail(email) { 
         var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -441,20 +445,25 @@ Actualmente es profesor de la materia de Derecho fiscal en la Licenciatura en De
 
 <footer>
     <section class="container">
+       <ul>  <a href="http://tandemlegal.mx/publicaciones/wp-login.php?redirect_to=http%3A%2F%2Fwww.tandemlegal.mx%2Fpublicaciones%2Fwp-admin%2F&reauth=1"><li>Login<li></a>
+                        <a href="http://96.127.176.34/squirrelmail/src/login.php"><li>Mail</li></a><ul>
         <article class="four columns"><img src="images/logotipoazul.png"></article>
+
         <article class="six columns"><p>DIRECCIÓN:<br><br>
 San Vicente 203, Fracc. San Cayetano,<br>C.P. 20010, Aguascalientes, Ags., MÉXICO.
 </p></article>
         <article class="six columns space"><br><p>
           Tel: +52 (449) 9149780</p>
-         <a href="mailto:
- &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#111;&#064;&#116;&#097;&#110;&#100;&#101;&#109;&#108;&#101;&#103;&#097;&#108;&#046;&#109;&#120;">
+         <a href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#111;&#064;&#116;&#097;&#110;&#100;&#101;&#109;&#108;&#101;&#103;&#097;&#108;&#046;&#109;&#120;">
  &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#111;&#064;&#116;&#097;&#110;&#100;&#101;&#109;&#108;&#101;&#103;&#097;&#108;&#046;&#109;&#120;</a>
         </article>
     </section>
             <hr class="container">
 <article class="container center">
-    <p>TANDEM CONSULTORES LEGALES © 2014 DERECHOS RESERVADOS</p>
+    <p class="derechos">TANDEM CONSULTORES LEGALES © 2014 DERECHOS RESERVADOS</p>
+        <h4>AVISO DE PRIVACIDAD TANDEM CONSULTORES LEGALES S.C.</h4>
+        <p class="privacidad">En TANDEM CONSULTORES LEGALES, S.C., sostenemos el compromiso irrestricto de cuidar la privacidad de nuestros clientes. Cualquier dato personal que nos sea suministrado será utilizado de manera exclusiva para la atención de los asuntos legales que nos sean solicitados y en la medida en que sean estrictamente necesarios para los trámites y procedimientos para los cuales se nos haya contratado. Nuestros clientes podrán recibir, de manera eventual, aquella información que estimamos pudiese ser de su interés, principalmente sobre sucesos relacionados con el mundo jurídico, tales como expedición de normas y sus reformas, resoluciones jurisprudenciales, nuevas doctrinas, oportunidades de negocio, o bien, en relación a la actividad de TANDEM CONSULTORES LEGALES, S.C. o de sus asociados y colaboradores. Le informamos que en todo momento Usted puede ejercer el derecho de acceso, ejercer los derechos de acceso, rectificación, cancelación y oposición respecto de sus datos personales (“DERECHOS ARCO”), de conformidad con las leyes aplicables. Para tal efecto, puede contactar a la Lic. Laura Elena López Carmona, responsable de la gestión de datos, bien al correo laura@tandemlegal.mx , al teléfono (449) 9149780, en horario de las 10:00 a las 15:00 horas, de lunes a viernes; o bien acudiendo a nuestras oficinas en el horario señalado. El presente aviso de privacidad podrá ser modificado por nosotros en el futuro. Cualquier cambio al presente será publicado en nuestra página electrónica.
+</p>
 </article>
 </footer>
 </body>

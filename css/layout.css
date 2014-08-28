@@ -10,34 +10,36 @@
 #serv{height: 600px}
 	}
 
-	@media only screen and (max-width: 767px) {
-
-	}
+	@media only screen and (max-width: 767px) {}
 
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		#menu{margin: 20px 0px 0px -80px}
 #menu li {text-decoration: none; font-size: 15px; color: #7694aa;margin-right: 5px;font-family: 'allerregular'; padding: 9px;float: left;margin: 5px }
 #services{padding-top: 120px;  min-height: 600px; height: 600px; }
 #abogados { padding-top: 120px; background: white 50% 0 repeat fixed; min-height: 1500px;  height: 1500px;}
-.frase h1{font-size:30px;border-left: solid 4px white;border-right: solid 4px white;padding:0 30px 10px 30px;text-align: center;width: 300px;margin: 250px auto; display: block;line-height: 120%}
-.logo img{margin-top: 30px;margin-left: 150px;zoom:0.7;}
+.frase h1{font-size:25px;padding:350px 30px 10px 30px;text-align: center;width: 300px;margin: 0px auto; display: block;line-height: 120%}
+.logo img{margin-top: 80px;margin-left: 150px;}
 #about { padding-top: 200px;height: 800px}
 #services{height: 800px;padding-top: 200px}
 #serv{padding-top: 100px; min-height: 1300px; height: 1300px; }
 #abogados { padding-top: 200px; background: white 50% 0 repeat fixed; min-height: 2500px;  height: 2500px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 #publicaciones { padding-top: 200px; min-height: 1200px;  height: 1200px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; }
 footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
+.banner{position: absolute;background: none}
+
 }
 
 
 	@media only screen and (max-width: 479px) {
-.frase h1{font-size:20px;border-left: solid 4px white;border-right: solid 4px white;padding:0 30px 10px 30px;text-align: center;width: 220px;margin: 250px auto; display: block;line-height: 120%}
+.frase h1{font-size:20px;padding:350px 30px 10px 30px;text-align: center;width: 220px;margin: 0px auto; display: block;line-height: 120%}
 #home{height: 200px}
-#about,#services { padding-top: 150px;height: 800px}
-#serv{height: 1200px}
+#about { padding-top: 150px;height: 800px}
+#services { padding-top: 150px;height: 1000px}
+#serv{height: 1500px}
 #abogados { padding-top: 150px; background: white 50% 0 repeat fixed; min-height: 2400px;  height: 2400px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
-footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; min-height: 500px; height: 500px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
-.logo img{margin-top: 150px;margin-left: 80px;zoom: 0.8;margin-bottom: -30px}
+footer{padding-top: 30px;  background: #153349 50% 0 repeat fixed; height: 1000px; margin: 0 auto;  width: 100%;  max-width: 100%;  position: relative;z-index: 999999 }
+.logo img{margin-top: 150px;margin-left: 80px;margin-bottom: -30px}
+.banner{position: absolute;background: none}
 #inline { display: none; width: 300px;z-index: 999999 }
 .txt ,.txtarea { width: 260px;}
 #publicaciones{height: 1200px}
